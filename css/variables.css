@@ -1,0 +1,10 @@
+/* Start Variables */
+:root {
+    --main-color: #19c8fa;
+    --spare-color: #001219;
+    --overlay-color: rgb(0 18 25 / 60%);
+    --transparent-color: rgb(25 200 250 / 45%);
+    --section-padding: 100px;
+    --paragragh-color: #5D6B83;
+}
+/* End Variables */

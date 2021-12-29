@@ -1,0 +1,64 @@
+/* Start Components */
+/*****************************************************************/
+
+/* Start Components one*/
+.main-heading {
+    text-align: center;
+    padding: 30px;
+}
+.main-heading h2 {
+    font-size: 36px;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #282A3E;
+}
+.main-heading h2::before {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    height: 2px;
+    background-color: var(--spare-color);
+    bottom: -25px;
+    width: 120px;
+}
+.main-heading h2::after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid var(--spare-color);
+    bottom: -32px;
+    background-color: white;
+}
+.main-heading p {
+    width: 550px;
+    margin: 0 auto 80px;
+    max-width: 100%;
+    line-height: 1.7;
+    color: var(--paragragh-color);
+}
+/* End Components one*/
+
+/* Start Components Two */
+/* End Components Two */
+
+/*****************************************************************/
+/* End Components */
